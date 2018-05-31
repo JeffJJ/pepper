@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+
+    height: 100%;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    background-color:#cccccc;
+}
+.navbar{
+	box-shadow: 2px 2px 5px black;
+	opacity: 0.5;
+	background-color: black;
+
+}
+#brand{
+	opacity: 1;
+}
+.navbar-brand.brando{
+    color:white;
+    font-size: 30px;
+}
+.navbar-brand.brando:hover{
+    font-weight: bold;
+    font-size: 30px;
+    color: yellow;
+}
+.hero-image{
+	background-image:linear-gradient(rgb(0,0,0,1),rgba(0,0,0,0.5)),url(media/5.jpg);
+	height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.cont{
+    text-align: center;
+    position: absolute;
+    top: 120%;
+    left: 1%;
+    color: black;  
+}
+.iconp{
+    position: absolute;
+    left: 50%;
+}
+
+.bigt {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+h1{
+	font-size: 500%;
+	font-family: 'Monoton', cursive;
+}
+
+.test:hover{
+	color: yellow;
+	font-size: 20%;
+}
+.pep-text{
+    text-align: center;
+    position: absolute;
+    top: 120%;
+    left: 3%;
+    right: 3%;
+    color: black;
+}
+.btn{
+    position: absolute;
+    top: 75%;
+    left: 77%;
+    background-color: gray;
+    color: white;
+    font-size: 130%;
+
+}
+.ribbon{
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    position: relative;
+    background: black;
+    color: white;
+    text-align: center;
+    padding:1% 0% 1%;
+    margin:;
+
+}
